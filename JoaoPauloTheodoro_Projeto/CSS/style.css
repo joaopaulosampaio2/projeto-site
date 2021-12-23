@@ -1,0 +1,204 @@
+*{
+    
+    overflow:auto;
+}
+
+.backGround{
+
+    background-image: url(../imagens/backgroundblack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: fixed;
+    position: fixed;
+    border: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.infocontato form{
+    margin: 0 auto;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: rgb(109, 109, 109);
+    border-radius: 10px;
+    max-width: 465px;
+    height: 330px;
+    opacity: 75%;
+    
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: gray;
+    background-color: white;
+    color: black;
+    font-weight:bolder;
+
+}   
+
+.infocontato h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: gray;
+    text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+.enviar {
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+
+.contaiener p{
+    background-color: rgb(27, 27, 27);
+    border-radius: 70px;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.contaiener a{
+    text-align: center;
+    display: grid;
+    max-width: 200px;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(167, 167, 167)
+
+}
+.infocontato{
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.infopessoal{
+    background-color: rgb(27, 27, 27);
+    border-radius: 70px;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.infopessoal h1{
+    color: rgb(185, 185, 185);
+    font-family: 'TESLA';
+    position: relative;
+    left: 220px;
+    top: 0px;
+    
+    
+}
+
+.infopessoal h2{
+    color: rgb(185, 185, 185);
+    font-family: 'jack';
+    position: relative;
+    left: 250px;
+    top: -50px;
+    
+}
+.home{
+    
+    font-family: 'TESLA';
+    font-size:xx-large;
+    position: relative;
+    top: 6px;
+    left: 200px;
+    
+    
+}
+
+.pessoal{
+    font-family: 'TESLA';
+    font-size:xx-large;
+    position: relative;
+    top: -28px;
+    left: 595px;
+}
+
+.contato{
+    font-family: 'TESLA';
+    font-size:xx-large;
+    position: relative;
+    top: -62px;
+    left: 990px;
+}
+
+.gitbutton a{
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 10px;
+    position: relative;
+    text-align: center;
+    padding: 90px;
+    top: -100px;
+    left: 10px;
+    overflow: hidden;
+    
+}
+
+.instabutton a{
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 10px;
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    top: -111px;
+    left: 10px;
+    overflow: hidden;
+    
+}
+
+.linkedinbutton a{
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 10px;
+    position: relative;
+    text-align: center;
+    padding: 100px;
+    top: -112px;
+    left: 13px;
+    overflow: hidden;
+    
+}
+
+.homepage{
+    background-color: rgb(19, 19, 19);
+    opacity: 50%;
+    border-radius: 70px;
+    margin: 50px;
+    padding: 10px;
+}
+
+.homepage p{
+    background-color: rgb(19, 19, 19);
+    opacity: 70%;
+    border-radius: 70px;
+    margin: 50px;
+}
